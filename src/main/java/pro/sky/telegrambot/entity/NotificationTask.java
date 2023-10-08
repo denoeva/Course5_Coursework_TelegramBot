@@ -13,7 +13,7 @@ public class NotificationTask {
     private long chatId;
     @Column(name = "message")
     private String message;
-    @Column(name = "exec_date")
+    @Column(name = "execution_date")
     private LocalDateTime execDate;
 
     public long getId() {
